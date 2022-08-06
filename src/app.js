@@ -12,12 +12,8 @@ if (process.env.NODE_ENV === "development") {
 const App = defineComponent({
 
 	render() {
-		return <div> hello word!111</div>
+		return <div> hello word!</div>
 	}
 })
 
 createApp(App).mount("#app")
-
-if (module.hot) {
-    module.hot.accept();
-}
