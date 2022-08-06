@@ -1,0 +1,11 @@
+### CACHE ###
+.parcel-cache/
+
+### BUILD ###
+dist/
+node_modules/
+
+
+### FILE ###
+.DS_Store
+yarn.lock

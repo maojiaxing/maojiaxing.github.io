@@ -1,0 +1,20 @@
+{
+	"name": "maojiaxing.github.io",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"serve": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"alias": {
+		"assets": "./src/assets"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.10",
+		"@vue/babel-plugin-jsx": "^1.1.1",
+		"parcel": "^2.7.0"
+	},
+	"dependencies": {
+		"vue": "^3.2.37"
+	}
+}
